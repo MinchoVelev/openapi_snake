@@ -27,7 +27,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-03-29T10:58:56.352073+02:00[Europe/Sofia]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-03-29T11:55:49.924360+02:00[Europe/Sofia]")
 @Controller
 @RequestMapping("${openapi.swaggerPetstore.base-path:/v1}")
 public class PetsApiController implements PetsApi {

@@ -44,12 +44,7 @@
             <artifactId>jakarta.validation-api</artifactId>
             <version>3.0.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.2</version>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
     <build>
 <plugins>
@@ -69,10 +64,11 @@
                     <generatorName>spring</generatorName>
                     <apiPackage>com.test.openapi.api</apiPackage>
                     <modelPackage>com.test.openapi.model</modelPackage>
-                    <generateApiTests>false</generateApiTests>
-                    <generateModelTests>false</generateModelTests>
+                    <generatorName>spring</generatorName>
                     <configOptions>
                         <useSpringBoot3>true</useSpringBoot3>
+<!--                        <modelPropertyNaming>snake_case</modelPropertyNaming>-->
+                        <useJakartaEe>true</useJakartaEe>
                     </configOptions>
                 </configuration>
             </execution>

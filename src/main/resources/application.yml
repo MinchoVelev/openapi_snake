@@ -1,3 +1,0 @@
-spring:
-  jackson:
-    property-naming-strategy: 'com.fasterxml.jackson.databind.PropertyNamingStrategy.SnakeCaseStrategy'
